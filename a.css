@@ -87,7 +87,6 @@ hr{
     background-color: rgba(0, 0, 0, 0.8)
 }
 .usercard{
-    border: 1px solid red;
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -145,10 +144,20 @@ hr{
    background: #e6655a;
    text-align: center;
 }
+.usercard > footer.media > a{
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+}
+.usercard > footer.media > a:hover{
+  background: #CF5D5F;
+}
 .usercard svg{
     width: 30px;
     height: 30px;
     fill: white;
-    margin: 0 16px;
     vertical-align: top;
 }
